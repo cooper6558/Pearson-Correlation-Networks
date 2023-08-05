@@ -1,3 +1,6 @@
+# Pearson Correlation Networks
+Compute the Pearson correlation coefficient between every pair of rows in a matrix.
+
 This library provides `float *gpu_correlation(float *, int, int);` which
 takes an input matrix and produces a correlation network using a GPU.
 The library consists of `correlation.cu`, `correlation.h`, `makefile`,
